@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+//1 Создайте пустой объект student тремя способами, закомментируйте два из них
+var student=new Object()//Создание нового пустого объекта ( то же, что и {})
+var student={}//Объект без свойств
+var student= Object.create({})
+
+var student={
+  name : 'Ибраим',
+  surname : 'Петров',
+  age : 18
+}
+student['name'] = 'Вася'
+delete student['name']
+
+for (var age in student)
+	console.log(age + student[age])
+
+alert(student.surname)
+
+//2
+var rating = {
+"Васильев Вася" : 5,
+"Петров Петя" : 4,
+"Алиумерова Асие" : 2
+}
+for (var key in rating)
+	console.log(key + rating[key])
+
+  var k = 0;
+  var sum=0
+
+  for (var key in rating)
+  {
+  	k++
+  }
+      if(k>0){
+      for (var key in rating)
+      {
+       sum=sum+rating[key];
+   }
+       console.log(sum/k)}
+       else
+       console.log("0")
+
+  console.log('Объект содержит свойств: ' +k)
+  console.log()
+
+//3
+  var salaries = {
+  "Анна": 500,
+  "Иван": 40,
+  "Алие": 200
+}
+
+
+  </script>
+</body>
+</html>
