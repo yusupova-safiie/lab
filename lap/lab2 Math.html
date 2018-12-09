@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+var a=1
+console.log(Math.acos(a));//арккосинус числа в радианах
+
+var b=1
+console.log(Math.asin(b));//возвращает арксинус числа
+
+var c=2
+console.log(Math.atan(c));//арктангенс
+
+var d=2, f=1
+console.log(Math.atan2(d,f));//арктангенс от частного своих аргументов
+
+var g=1
+console.log(Math.exp(g));//E^x, где x-аргумент, E-число Эйлера(2,718)
+
+var value1=1, value2=2
+console.log(Math.min([value1[value2]]));// меньшее из аргументов
+console.log(Math.min());// меньшее из аргументов
+
+var randomNumber=Math.random()
+console.log(Math.random());//псевдорандомное число  от 0 до 1
+
+var h=4
+console.log(Math.sqrt(h));//квадратный корень
+
+
+var i=8
+console.log(Math.log(i));//натуральный логарифм
+
+var x=Math.round(20.49)
+console.log(Math.round(x));//число, округленное до ближайшего целогго
+var y=Math.round(-20.5)
+console.log(Math.round(y));//число, округленное до ближайшего целогго
+var x=Math.round(20.5)
+console.log(Math.round(x));//число, округленное до ближайшего целогго
+var y=Math.round(-20.51)
+console.log(Math.round(y));//число, округленное до ближайшего целогго
+//Если дробная часть числа равна 0.5 или больше, то аргумент округляется к следующему большему целому. Если дробная часть меньше, чем 0.5, то округление производится до ближайшего меньшего целого.
+
+var k=(1.7);
+console.log(Math.floor(k));//наиб. целое число меньшее либо  равное указ. числу
+
+var l=(1.7);
+console.log(Math.ceil(l));// наим. целое, большее или равное указ. числу
+
+var A=30;
+with(Math){
+  n=sin(A*PI/180);
+}
+console.log(Math.sin(n));//sinx
+
+var m=1
+console.log(Math.cos(m));//cosx
+
+var n=180 * Math.PI, o=Math.PI * 180;
+console.log(Math.sin((30)));//основание в степени экспоненты т.е. знач выражения основание ^экпонента
+console.log(Math.atan(Math.sqrt(3)));
+
+var o=2
+var p=3
+console.log(Math.pow(2,3));
+
+var value1=2,value2=1
+console.log(Math.max([value1[value2]]));
+console.log(Math.max());
+
+console.log(Math.abs('-1'));//возвращает абсолютное значение числа
+console.log(Math.abs(-2));
+console.log(Math.abs(null));
+console.log(Math.abs("string"));
+console.log(Math.abs());
+
+
+console.log(Math.E);//число Эйлера
+console.log(Math.LN2);//ln из 2
+console.log(Math.LOG2E);//двоичный аргумент из e
+console.log(Math.LOG10E);//десятичный логарифм из Е
+console.log(Math.PI);//отношение длины окружности круга к его диаметру
+console.log(Math.SQRT1_2);//корень из 1/2
+console.log(Math.SQRT2);//корень из 2
+console.log(Math.LN10);//ln из 10
+
+  </script>
+</body>
+</html>
