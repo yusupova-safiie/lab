@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+ <script>
+//1
+/*var question = prompt ('В каком году ты поступил в КИПУ?')
+if (question != 2017) alert ('Не правильно!')*/
+//2
+/*var question = prompt('В каком году поступил в КИПУ?', ' 	')
+if (question != 2017) {
+	alert( 'Не правильно!' )
+	alert( 'Подумай хорошо!' )
+}*/
+//3
+/*var question = prompt('В каком году поступил в КИПУ?', ' ')
+if (question != 2017)
+	alert( 'Не правильно!' )
+else
+	alert( 'Привет, первокурсник!' )*/
+
+//1
+alert('---1 задание---')
+var a = +prompt('Введите значение "a"',' ')
+var b = +prompt('Введите значение "b"',' ')
+if (a<b)
+    alert(b)
+  else
+    alert(a)
+
+//2
+// если поставить перед promt "+" то строка преобразов в числ.
+alert('---2 задание---')
+var x = +prompt('Введите значение "x"',' ')
+var y = +prompt('Введите значение "y"',' ')
+if (x>y)
+{
+  c=x
+  x=y
+  y=c
+}
+alert(x)
+alert(y)
+
+/*
+//3
+if (0) {
+  console.log ( 'Привет' );
+}
+// ответ не выведется
+*/
+
+//4
+alert('---4 задание---')
+var a = +prompt('Введите значение "a"',' ')
+var b = +prompt('Введите значение "b"',' ')
+var c = +prompt('Введите значение "c"',' ')
+  if (a>b)
+      d=a
+  else
+      d=b
+  if (c>d)
+      d=c
+    alert(c)
+  if (c<d)
+    alert(d)
+//5
+alert('---5 задание---')
+var ageFa = +prompt('Введите возраст папы',' ')
+var ageMa = +prompt('Введите возраст мамы',' ')
+  if (ageFa>ageMa)
+    alert ('Папа старше мамы')
+  else
+    alert ('Мама старше папы')
+//6
+alert('---6 задание---')
+var ageFa = +prompt('Введите возраст папы',' ')
+var ageMa = +prompt('Введите возраст мамы',' ')
+  if (ageFa==ageMa)
+    alert('Мои родители - ровесники')
+  else
+    if (ageFa>ageMa)
+      alert ('Папа старше мамы')
+    else
+      alert ('Мама старше папы')
+
+ </script>
+</body>
+</html>
