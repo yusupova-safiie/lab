@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+//1
+console.log('---1 задание---')
+ var a = true
+ var b = 123
+ var c = 'hi'
+console.log(a+b)
+console.log(a-b)
+
+console.log(a+a)
+console.log(a-a)
+
+console.log(c+a)
+console.log(c-a)
+
+console.log(c+c)
+console.log(c-c)
+//2
+console.log('---2 задание---')
+  var a = [Math.floor(Math.random()*(2,9))]
+  var b = [Math.floor(Math.random()*(2,9))]
+  var c = [Math.floor(Math.random()*(2,9))]
+  var A = [a,b,c]
+console.log(A)
+console.log(A[0]+A[1]+A[2])
+console.log(A[0]*A[1]*A[2])
+console.log(A[2]%A.length++)
+//3
+console.log('---3 задание---')
+  var a = 2
+  var b = 7
+  var c = 5
+  p = (a + b + c) / 2
+  S = p * (p - a) * (p - b) * (p - c)
+console.log('the result is: ' + Math.sqrt(S))
+//4
+console.log('---4 задание---')
+  var x = 4, y;
+      y = 4 * x++
+console.log('y= ' + y)
+console.log('x= ' + x)
+  var x = 4;
+      y = 4 * ++x
+console.log('y= ' + y)
+console.log('x= ' + x)
+//5
+console.log('---5 задание---')
+  var a = 2
+      a *= 2 + 5 //a=a*(2+5)
+console.log(a)//14
+  var a = 3, c = 2 + ++a //a=a+1
+      a = a + c
+console.log(a)//10
+  var a = 3, c = 2 + a++
+      a = a + c
+console.log(a)//9
+
+</script>
+</body>
+</html>
